@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Menu | Flow Workspace</title>
+  <meta name="description" content="Browse Flow Workspace cafe menu with hot drinks, cold drinks, and light snacks designed for productive workdays.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="menu">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">Flow Workspace</a>
+      <button class="mobile-toggle" data-mobile-toggle aria-label="Toggle navigation">☰</button>
+      <nav class="nav-links" id="site-nav">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="services.html" data-i18n="nav_services">Services</a>
+        <a href="pricing.html" data-i18n="nav_pricing">Pricing</a>
+        <a href="menu.html" data-i18n="nav_menu">Menu</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button type="button" data-lang="en" class="lang-btn is-active">EN</button>
+          <button type="button" data-lang="ar" class="lang-btn">AR</button>
+        </div>
+        <a class="btn btn-primary" href="https://wa.me/201012345678?text=Hi%20Flow%20Workspace%2C%20I%20want%20to%20book%20a%20desk." target="_blank" rel="noopener" data-i18n="book_desk">Book a Desk</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <p class="eyebrow" data-i18n="menu_eyebrow">Cafe Corner</p>
+        <h1 data-i18n="menu_title">Cafe Menu</h1>
+        <p data-i18n="menu_subtitle">Fresh drinks and light bites to support your workday.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="menu-grid">
+          <article class="menu-card">
+            <h2 data-i18n="cat_hot">Hot Drinks</h2>
+            <ul class="menu-list">
+              <li><div><h3 data-i18n="item_espresso">Espresso</h3><p data-i18n="item_espresso_desc">Strong classic coffee shot</p></div><span>45 EGP</span></li>
+              <li><div><h3 data-i18n="item_cappuccino">Cappuccino</h3><p data-i18n="item_cappuccino_desc">Espresso with steamed milk foam</p></div><span>60 EGP</span></li>
+              <li><div><h3 data-i18n="item_latte">Latte</h3><p data-i18n="item_latte_desc">Smooth espresso with milk</p></div><span>65 EGP</span></li>
+              <li><div><h3 data-i18n="item_tea">Tea</h3><p data-i18n="item_tea_desc">Black tea or green tea</p></div><span>35 EGP</span></li>
+            </ul>
+          </article>
+
+          <article class="menu-card">
+            <h2 data-i18n="cat_cold">Cold Drinks</h2>
+            <ul class="menu-list">
+              <li><div><h3 data-i18n="item_iced_latte">Iced Latte</h3><p data-i18n="item_iced_latte_desc">Chilled milk coffee</p></div><span>70 EGP</span></li>
+              <li><div><h3 data-i18n="item_iced_mocha">Iced Mocha</h3><p data-i18n="item_iced_mocha_desc">Chocolate-flavored iced coffee</p></div><span>75 EGP</span></li>
+              <li><div><h3 data-i18n="item_orange">Fresh Orange Juice</h3><p data-i18n="item_orange_desc">Freshly squeezed orange juice</p></div><span>65 EGP</span></li>
+              <li><div><h3 data-i18n="item_water">Mineral Water</h3><p data-i18n="item_water_desc">Bottled water</p></div><span>20 EGP</span></li>
+            </ul>
+          </article>
+
+          <article class="menu-card">
+            <h2 data-i18n="cat_snacks">Snacks</h2>
+            <ul class="menu-list">
+              <li><div><h3 data-i18n="item_croissant">Croissant</h3><p data-i18n="item_croissant_desc">Fresh buttery croissant</p></div><span>45 EGP</span></li>
+              <li><div><h3 data-i18n="item_brownie">Brownie</h3><p data-i18n="item_brownie_desc">Rich chocolate brownie</p></div><span>50 EGP</span></li>
+              <li><div><h3 data-i18n="item_sandwich">Sandwich</h3><p data-i18n="item_sandwich_desc">Light fresh sandwich</p></div><span>85 EGP</span></li>
+              <li><div><h3 data-i18n="item_cookies">Cookies</h3><p data-i18n="item_cookies_desc">Baked cookies selection</p></div><span>35 EGP</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner reveal">
+      <div class="container cta-grid">
+        <div>
+          <h2 data-i18n="menu_cta_title">Work, relax, and enjoy</h2>
+          <p data-i18n="menu_cta_text">Contact us now or book your visit on WhatsApp.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-outline" href="contact.html" data-i18n="contact_us">Contact Us</a>
+          <a class="btn btn-primary" href="https://wa.me/201012345678?text=Hi%20Flow%20Workspace%2C%20I%20want%20to%20visit%20Flow%20Workspace." target="_blank" rel="noopener" data-i18n="book_whatsapp">Book on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Flow Workspace</h3>
+        <p data-i18n="footer_tagline">Warm, modern coworking for focused work and creative growth.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_quick_links">Quick Links</h4>
+        <ul>
+          <li><a href="about.html" data-i18n="nav_about">About</a></li>
+          <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+          <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_contact">Contact</h4>
+        <ul>
+          <li>+20 10 1234 5678</li>
+          <li>hello@flowworkspace.com</li>
+          <li data-i18n="contact_address">25 Road 9, Maadi, Cairo, Egypt</li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_follow">Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Flow Workspace. <span data-i18n="footer_rights">All rights reserved.</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
