@@ -244,8 +244,8 @@ ul {
   display: flex;
   align-items: center;
   background:
-    linear-gradient(rgba(250, 244, 235, 0.74), rgba(250, 244, 235, 0.22)),
-    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1800&q=80") center/cover no-repeat;
+    linear-gradient(rgba(250, 244, 235, 0.30), rgba(250, 244, 235, 0.60)),
+    url("./assets/hero-baner.jpg") center/cover no-repeat;
 }
 
 .hero.hero-bg .hero-grid {
